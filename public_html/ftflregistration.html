@@ -17,7 +17,7 @@
                 
                 <label for="trackSelection">Chose your Track : </label>
                 
-                <select name="trackSelection">
+                <select name="trackSelection" id="trackSelection">
                     <option value="ITS">ITS</option>
                     <option value="ITES">ITES</option>
                     <option value="MGT">MGT</option>
@@ -25,7 +25,7 @@
                 </select>
                 
                 <label for="trackSelection2ndChoice">Chose your Second Choice : </label>
-                   <select name="trackSelection2ndChoice">
+                   <select name="trackSelection2ndChoice" id="trackSelection2ndChoice">
                     <option value="ITS">ITS</option>
                     <option value="ITES">ITES</option>
                     <option value="MGT">MGT</option>
@@ -33,10 +33,10 @@
                 </select>
                 
                 <label for="userName">Enter User Name : </label>
-                <input type="email" name="userName" placeholder="your email" />
+                <input type="email" name="userName" id="userName" placeholder="your email" />
                 
                 <label for="password">Enter Password : </label>
-                <input type="password" name="password" placeholder="password" maxlength="25"/>
+                <input type="password" name="password" id="password" placeholder="password" maxlength="25"/>
                 
             </fieldset>
             
@@ -46,44 +46,44 @@
                 
                 <label for="fullName">Full Name : </label>
             
-                <input type="text" name="fullName"/>
+                <input type="text" name="fullName" id="fullName"/>
                 
                 <label for="fathersName">Father's Name : </label>
                 
-                <input type="text" name="fathersName"/>
+                <input type="text" name="fathersName" id="fathersName"/>
                 
                 <label for="fathersOccupation">Father's Occupation : </label>
                 
-                <input type="text" name="fathersOccupation"/> <br/>
+                <input type="text" name="fathersOccupation" id="fathersOccupation"/> <br/>
                 
                 <label for="mothersName">Mother's Name : </label>
                 
-                <input type="text" name="mothersName"/>
+                <input type="text" name="mothersName" id="mothersName"/>
                 
                 <label for="mothersOccupation">Mother's Occupation : </label>
                 
-                <input type="text" name="mothersOccupation"/>
+                <input type="text" name="mothersOccupation" id="mothersOccupation"/>
                 
                 <label for="guardiansIncome">Guardian's Income (Yearly) : </label>
                 
-                <input type="number" name="guardiansIncome" min="5000" placeholder="Enter an amount"/>
+                <input type="number" name="guardiansIncome" id="guardiansIncome" min="5000" placeholder="Enter an amount"/>
                 
                 <label for="gender">Select Gender : </label>
                 
-                <input type="radio" name="gender" value="Male" checked="checked"/>Male
+                <input type="radio" name="gender" id="gender" value="Male" checked="checked"/>Male
                 
-                <input type="radio" name="gender" value="Female"/>Female
+                <input type="radio" name="gender" id="gender2" value="Female"/>Female
                  
-                 <input type="radio" name="gender" value="Others"/>Others <br/>
+                 <input type="radio" name="gender" id="gender3" value="Others"/>Others <br/>
                 
                 
                 <label for="dateofBirth">Birth Date: </label>
                 
-                <input type="date" name="dateofBirth"/>
+                <input type="date" name="dateofBirth" id="dateofBirth"/>
                 
                 <label for="bloodGroup">Blood Group : </label>
                 
-                <select name="bloodGroup">
+                <select name="bloodGroup" id="bloodGroup">
                     <option value="A+">A+</option>
                     <option value="A-">A-</option>
                     <option value="B+">B+</option>
@@ -92,7 +92,7 @@
                 
                 <label for="religion">Select Religion : </label>
                 
-                <select name="religion">
+                <select name="religion" id="religion">
                     <option value="Islam">Islam</option>
                     <option value="Hindu">Hindu</option>
                     <option value="Christian">Christian</option>
@@ -102,33 +102,33 @@
                   
                 <label for="maritialStatus">Select Gender : </label>
                 
-                <input type="radio" name="maritialStatus" value="Unmarried" checked="checked"/>Unmarried
+                <input type="radio" name="maritialStatus" id="maritialStatus" value="Unmarried" checked="checked"/>Unmarried
                 
-                <input type="radio" name="maritialStatus" value="Married"/>Married <br/>
+                <input type="radio" name="maritialStatus" id="maritialStatus2" value="Married"/>Married <br/>
                 
                 <label for="nationalId">National ID : </label>
                 
-                <input type="number" name="nationalId" max="20"/> or
+                <input type="number" name="nationalId" id="nationalId" max="20"/> or
                 
                 <label for="passport">Passport Number : </label>
                 
-                <input type="number" name="passport" max="30"/>
+                <input type="number" name="passport" id="passport" max="30"/>
                 
                 <label for="mobile">Mobile Number : </label>
                 
-                <input type="tel" name="mobile"/>
+                <input type="tel" name="mobile" id="mobile"/>
                 
                 <label for="emergency">Emergency Number : </label>
                 
-                <input type="tel" name="emergency"/> <br/>
+                <input type="tel" name="emergency" id="emergency"/> <br/>
                 
                 <label for="presentAddress">Present Address : </label>
                 
-                <textarea name="presentAddress" rows="4" cols="30"></textarea>
+                <textarea name="presentAddress" id="presentAddress" rows="4" cols="30"></textarea>
                 
                 <label for="permanentAddress">Permanent Address : </label>
                 
-                <textarea name="permanentAddress" rows="4" cols="30"></textarea>
+                <textarea name="permanentAddress" id="permanentAddress" rows="4" cols="30"></textarea>
                                 
             </fieldset>
             
@@ -138,7 +138,7 @@
                 
                 <label for="ExamName">Exam Name : </label>
                 
-                <select name="ExamName">
+                <select name="ExamName" id="ExamName">
                     <option value="">Select an Exam Name</option>
                     <option value="Post Graduation">MA / MSC / MBA</option>
                     <option value="Under Graduation">BA / BSC / BBA</option>
@@ -149,12 +149,12 @@
                 
                 <label for="concentration"> Concentration : </label>
                 
-                <input type="text" name="concentration">
+                <input type="text" name="concentration" id="concentration">
                 
                 
                 <label for="instituteName"> Select Institute Name : </label>
                 
-                 <select name="instituteName">
+                 <select name="instituteName" id="instituteName">
                     <option value="">Select an Institute Name</option>
                     <option value="Dhaka University">Dhaka University</option>
                     <option value="Daffodil International University">Daffodil International University</option>
@@ -165,11 +165,11 @@
                 
                 <label for="passingYear"> Passing Year : </label>
                 
-                <input type="week" name="passingYear">
+                <input type="week" name="passingYear" id="passingYear">
                 
                 <label for="grade"> Grade : </label>
                 
-                <select name="grade">
+                <select name="grade" id="grade">
                     <option value="A+">A+</option>
                     <option value="A">A</option>
                     <option value="A-">A-</option>
@@ -184,7 +184,7 @@
                 
                 <legend>Programming Skills (Optional)</legend>
                 
-                <label for="programmingLanguages">Programming Languages : </label>
+                <label>Programming Languages : </label>
                 
                 <input type="checkbox" value="java"> Java
                 <input type="checkbox" value="php"> PHP
@@ -213,23 +213,25 @@
             <fieldset>
                 <legend>Employment History (Optional)</legend>
                 <label for="companyName">Company Name</label>
-                <input type="text" name="companyName"/>
+                <input type="text" name="companyName" id="companyName"/>
                 
                 <label for="designation">Designation</label>
-                <input type="text" name="designation"/><br/>
+                <input type="text" name="designation" id="designation"/><br/>
                 
                 
                 <label for="startDate">Start Date</label>
-                <input type="week" name="startDate"/>
+                <input type="week" name="startDate" id="startDate"/>
                 
                  <label for="endDate">End Date</label>
-                <input type="week" name="endDate"/>
+                <input type="week" name="endDate" id="endDate"/>
                 or
                 <input type="checkbox" name="continue" value="continue">Continue
                 
             </fieldset>
-            <label for="photo">Updoad Photo<label>
-                    <input type='file' name="photo">    
+            <label for="photo">Updoad Photo</label>
+                    <input type='file' name="photo" id="photo"><br/>                    
+                    <input type="submit" name="submitButton" value="Submit"/>
+                    <input type="reset" name="resetButton" value="Reset"/>
         </form>
                 
     </body>
